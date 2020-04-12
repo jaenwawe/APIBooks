@@ -1,0 +1,50 @@
+{
+ "items": [
+  {
+   "volumeInfo": {
+    "title": "Trump's Enemies",
+    "authors": [
+     "Corey R. Lewandowski",
+     "David N. Bossie"
+    ],
+    "publisher": "Center Street"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Constitutional Cliffhangers",
+    "authors": [
+     "Brian C. Kalt"
+    ],
+    "publisher": "Yale University Press"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Enemy of the People",
+    "authors": [
+     "Marvin Kalb"
+    ],
+    "publisher": "Brookings Institution Press"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Enemies",
+    "authors": [
+     "Peter D’Abrosca"
+    ],
+    "publisher": "Bombardier Books"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Against All Enemies",
+    "authors": [
+     "Richard A. Clarke"
+    ],
+    "publisher": "Simon and Schuster"
+   }
+  }
+ ]
+}

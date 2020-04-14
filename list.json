@@ -2,48 +2,44 @@
  "items": [
   {
    "volumeInfo": {
-    "title": "Trump's Enemies",
-    "authors": [
-     "Corey R. Lewandowski",
-     "David N. Bossie"
-    ],
-    "publisher": "Center Street"
+    "title": "The Great Friends"
    }
   },
   {
    "volumeInfo": {
-    "title": "Constitutional Cliffhangers",
+    "title": "Let's be Friends",
     "authors": [
-     "Brian C. Kalt"
+     "Lawrence E. Shapiro",
+     "Julia Holmes"
     ],
-    "publisher": "Yale University Press"
+    "publisher": "New Harbinger  Publications"
    }
   },
   {
    "volumeInfo": {
-    "title": "Enemy of the People",
+    "title": "The Great Big Book of Friends",
     "authors": [
-     "Marvin Kalb"
+     "Mary Hoffman"
     ],
-    "publisher": "Brookings Institution Press"
+    "publisher": "Frances Lincoln Children's Books"
    }
   },
   {
    "volumeInfo": {
-    "title": "Enemies",
+    "title": "Best Friends",
     "authors": [
-     "Peter D’Abrosca"
+     "Shannon Hale"
     ],
-    "publisher": "Bombardier Books"
+    "publisher": "First Second"
    }
   },
   {
    "volumeInfo": {
-    "title": "Against All Enemies",
+    "title": "York Friends and the Great War",
     "authors": [
-     "Richard A. Clarke"
+     "David Rubinstein"
     ],
-    "publisher": "Simon and Schuster"
+    "publisher": "Borthwick Publications"
    }
   }
  ]

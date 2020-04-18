@@ -9,13 +9,56 @@ let words;
 let myList = "./userList.txt";
 let jsonList = "./ list.json";
 const Http = new XMLHttpRequest();
+("use strict");
 
-if (process.argv[2] === "query") {
-  let url = getURL();
-  internet(url);
-  getListFromFile();
-} else if (process.argv[2] === "add") {
-  addToMyList();
+const readline = require("readline");
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+const question1 = () => {
+  return new Promise((resolve, reject) => {
+    rl.question("q1 Please type your query ", (answer) => {
+      let search = answer.split(" ");
+      console.log(`Your query is' ${query(search)}`);
+      let url = getURL(search);
+      internet(url);
+      getListFromFile();
+      resolve();
+    });
+  });
+};
+
+const question2 = () => {
+  return new Promise((resolve, reject) => {
+    rl.question(
+      "q2 What book number (0-4) would you like to save? ",
+      (answer) => {
+        addToMyList(Number(answer));
+        //console.log(`Thank you for your valuable feedback: ${answer}`);
+        resolve();
+      }
+    );
+  });
+};
+
+const main = async () => {
+  await question1();
+  await question2();
+  rl.close();
+};
+
+main();
+
+function query(search) {
+  let query = "the";
+  for (let i = 0; i < search.length; i++) {
+    query = query + `+${search[i]}`;
+  }
+  console.log(query);
+  return query;
 }
 
 function internet(url) {
@@ -28,16 +71,16 @@ function internet(url) {
   };
 }
 
-function add(words) {
+function add(words, num) {
   for (let i = 0; i < words.items.length; i++) {
     let insert = `\n Title:      ${words.items[i].volumeInfo.title} \n Authors:    ${words.items[i].volumeInfo.authors} \n Publisher:  ${words.items[i].volumeInfo.publisher}`;
-    if (i == process.argv[3]) {
+    if (i == num) {
       userList(insert);
     }
   }
 }
 
-function addToMyList() {
+function addToMyList(num) {
   fs.readFile("./list.json", "utf8", (err, jsonString) => {
     if (err) {
       console.log(err);
@@ -48,7 +91,7 @@ function addToMyList() {
       //add(jsonString); //axios
 
       words = JSON.parse(jsonString);
-      add(words);
+      add(words, num);
     }
   });
 }
@@ -94,22 +137,13 @@ function createList(booksObj) {
   });
 }
 
-function getURL() {
+function getURL(search) {
   let url =
     "https://www.googleapis.com/books/v1/volumes?q=" +
-    query() +
+    query(search) +
     "&fields=items(volumeInfo/authors,volumeInfo/title, volumeInfo/publisher)&maxResults=5&key=AIzaSyAXwdxRzOHwF6uviyne4Vg20sXh_5Ek_Wc";
   console.log(url);
   return url;
-}
-
-function query() {
-  let query = "the";
-  for (let i = 3; i < process.argv.length; i++) {
-    query = query + `+${process.argv[i]}`;
-  }
-  console.log(query);
-  return query;
 }
 
 function userList(insert) {
@@ -121,29 +155,3 @@ function userList(insert) {
     }
   });
 }
-
-//const axios = require("axios");
-
-// function addAxios(words) {
-//   for (const volumeInfo in words) {
-//     let insert = `\n Title:      ${volumeInfo.title} \n Authors:    ${volumeInfo.authors} \n Publisher:  ${volumeInfo.publisher}`;
-//     // console.log(insert);
-//     if (volumeInfo.length == process.argv[3] && process.argv[2] == "add") {
-//       userList(insert);
-//     }
-//   }
-// }
-
-// axios
-//   .get(url)
-//   .then((res) => {
-//     console.log(res.data.items);
-//     let inner = res.data.items;
-//     //console.log(inner);
-//     // createList(JSON.parse(inner));
-//     //console.log(JSON.stringify(inner));
-//     createList(JSON.stringify(inner));
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });

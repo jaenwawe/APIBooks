@@ -2,44 +2,47 @@
  "items": [
   {
    "volumeInfo": {
-    "title": "The Great Friends"
+    "title": "The Sunday Dinner Cookbook",
+    "authors": [
+     "Cider Mill Press"
+    ],
+    "publisher": "Cider Mill Press"
    }
   },
   {
    "volumeInfo": {
-    "title": "Let's be Friends",
+    "title": "Whatever Happened to Sunday Dinner?",
     "authors": [
-     "Lawrence E. Shapiro",
-     "Julia Holmes"
+     "Lisa Caponigri"
     ],
-    "publisher": "New Harbinger  Publications"
+    "publisher": "Sterling Publishing (NY)"
    }
   },
   {
    "volumeInfo": {
-    "title": "The Great Big Book of Friends",
+    "title": "Sunday Dinner",
     "authors": [
-     "Mary Hoffman"
+     "Bridgette A. Lacy"
     ],
-    "publisher": "Frances Lincoln Children's Books"
+    "publisher": "UNC Press Books"
    }
   },
   {
    "volumeInfo": {
-    "title": "Best Friends",
+    "title": "Sunday Dinner in the South",
     "authors": [
-     "Shannon Hale"
+     "Tammy Algood"
     ],
-    "publisher": "First Second"
+    "publisher": "Thomas Nelson"
    }
   },
   {
    "volumeInfo": {
-    "title": "York Friends and the Great War",
+    "title": "The Sunday Dinner Cookbook",
     "authors": [
-     "David Rubinstein"
+     "Cider Mill Press"
     ],
-    "publisher": "Borthwick Publications"
+    "publisher": "Cider Mill Press"
    }
   }
  ]

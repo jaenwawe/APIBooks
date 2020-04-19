@@ -2,44 +2,47 @@
  "items": [
   {
    "volumeInfo": {
-    "title": "How to Hide an Empire : A Short History of the Greater United States",
+    "title": "The Sunday Dinner Cookbook",
     "authors": [
-     "Daniel Immerwahr"
+     "Cider Mill Press"
     ],
-    "publisher": "Vintage Publishing"
+    "publisher": "Cider Mill Press"
    }
   },
   {
    "volumeInfo": {
-    "title": "The law of United States territories and affiliated jurisdictions",
+    "title": "Whatever Happened to Sunday Dinner?",
     "authors": [
-     "Stanley K. Laughlin"
-    ]
-   }
-  },
-  {
-   "volumeInfo": {
-    "title": "To Enhance the Economic Development of the U.S. Territories",
-    "authors": [
-     "United States. Congress. House. Committee on Interior and Insular Affairs. Subcommittee on Insular Affairs"
-    ]
-   }
-  },
-  {
-   "volumeInfo": {
-    "title": "The United States Marshals of New Mexico and Arizona Territories, 1846-1912",
-    "authors": [
-     "Larry D. Ball"
+     "Lisa Caponigri"
     ],
-    "publisher": "UNM Press"
+    "publisher": "Sterling Publishing (NY)"
    }
   },
   {
    "volumeInfo": {
-    "title": "To Enhance the Economic Development of the U.S. Territories",
+    "title": "Sunday Dinner",
     "authors": [
-     "United States. Congress. House. Committee on Interior and Insular Affairs. Subcommittee on Insular Affairs"
-    ]
+     "Bridgette A. Lacy"
+    ],
+    "publisher": "UNC Press Books"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "Sunday Dinner in the South",
+    "authors": [
+     "Tammy Algood"
+    ],
+    "publisher": "Thomas Nelson"
+   }
+  },
+  {
+   "volumeInfo": {
+    "title": "The Sunday Dinner Cookbook",
+    "authors": [
+     "Cider Mill Press"
+    ],
+    "publisher": "Cider Mill Press"
    }
   }
  ]

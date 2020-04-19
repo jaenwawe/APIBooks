@@ -1,0 +1,22 @@
+{
+  "name": "apibooks",
+  "version": "1.0.0",
+  "description": "Search books from Google Books.  Save one to userList.txt",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaenwawe/APIBooks.git"
+  },
+  "author": "Jae Nwawe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaenwawe/APIBooks/issues"
+  },
+  "homepage": "https://github.com/jaenwawe/APIBooks#readme",
+  "devDependencies": {
+    "jest": "^25.3.0"
+  }
+}

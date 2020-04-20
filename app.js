@@ -1,5 +1,5 @@
-//1. npm install --save xmlhttprequest
-//2. npm module.exports = sum;
+//npm install --save xmlhttprequest
+//npm install --save-dev jest
 
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const fs = require("fs");

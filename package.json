@@ -18,5 +18,8 @@
   "homepage": "https://github.com/jaenwawe/APIBooks#readme",
   "devDependencies": {
     "jest": "^25.3.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

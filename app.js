@@ -1,5 +1,4 @@
-//npm install --save xmlhttprequest
-//npm install --save-dev jest
+
 
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 const fs = require("fs");
@@ -69,6 +68,7 @@ function internet(url) {
     createListFile(myList);
   };
 }
+// module.exports=internet;
 
 function add(words, num) {
   for (let i = 0; i < words.items.length; i++) {

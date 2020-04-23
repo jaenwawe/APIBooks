@@ -2,47 +2,50 @@
  "items": [
   {
    "volumeInfo": {
-    "title": "The Sunday Dinner Cookbook",
+    "title": "Ballpark",
     "authors": [
-     "Cider Mill Press"
+     "Paul Goldberger"
     ],
-    "publisher": "Cider Mill Press"
+    "publisher": "Knopf"
    }
   },
   {
    "volumeInfo": {
-    "title": "Whatever Happened to Sunday Dinner?",
+    "title": "Baseball and the American Dream",
     "authors": [
-     "Lisa Caponigri"
+     "Robert Elias"
     ],
-    "publisher": "Sterling Publishing (NY)"
+    "publisher": "Routledge"
    }
   },
   {
    "volumeInfo": {
-    "title": "Sunday Dinner",
+    "title": "The Great American Baseball Card Flipping, Trading, and Bubble Gum Book",
     "authors": [
-     "Bridgette A. Lacy"
+     "Brendan C. Boyd",
+     "Fred C. Harris"
     ],
-    "publisher": "UNC Press Books"
+    "publisher": "Little Brown & Company"
    }
   },
   {
    "volumeInfo": {
-    "title": "Sunday Dinner in the South",
+    "title": "Tabitha Soren",
     "authors": [
-     "Tammy Algood"
+     "Dave Eggers",
+     "Joe Blanton",
+     "Tabitha Soren"
     ],
-    "publisher": "Thomas Nelson"
+    "publisher": "Aperture"
    }
   },
   {
    "volumeInfo": {
-    "title": "The Sunday Dinner Cookbook",
+    "title": "Our Game",
     "authors": [
-     "Cider Mill Press"
+     "Charles C. Alexander"
     ],
-    "publisher": "Cider Mill Press"
+    "publisher": "Henry Holt and Company"
    }
   }
  ]

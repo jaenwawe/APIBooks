@@ -1,3 +1,4 @@
 1. npm install --save xmlhttprequest
-2. To search run node app query search terms e.g. node app query moon walk
-3. To add to User List run node app add # e.g. node app add 0
+2. npm install --save-dev jest
+3. Run node add. Readine will prompt you to input search terms. Then it will add them to a temporary file list.json.
+4. Readline will prompt you to type the number of the book that you would like. It will add it to userList.txt.
